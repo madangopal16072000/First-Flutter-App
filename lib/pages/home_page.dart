@@ -1,26 +1,18 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  HomePage({Key? key}) : super(key: key);
-
-  @override
-  _HomePage createState() => _HomePage();
-}
-
-class _HomePage extends State<HomePage> {
+class HomePage extends StatelessWidget {
   final int days = 30;
   final String name = "Madan Gopal";
+
+  const HomePage({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Madan's App"),
+        title: const Text("Madan's App"),
       ),
-      body: Center(
-          child: Container(
-        child: Text("Welcome to $days days of flutter by $name"),
-      )),
-      drawer: Drawer(),
+      body: Center(child: Text("Welcome to $days days of flutter by $name")),
+      drawer: const Drawer(),
     );
   }
 }
