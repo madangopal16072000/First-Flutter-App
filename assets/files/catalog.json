@@ -1,0 +1,43 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "name" : "iPhone 12 Pro",
+            "desc" : "Apple iPhone 12th generation",
+            "price" : 999,
+            "color" : "#33505a",
+            "image" : "https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-2up-blue-220907-geo_inline.jpg.large.jpg"
+        },
+        {
+            "id" : 2,
+            "name" : "Pixel 5",
+            "desc" : "Google Pixel phone 5th generation",
+            "price" : 699,
+            "color" : "#00ac51",
+            "image" : "https://m.media-amazon.com/images/I/513w-Nev-OL._SL1011_.jpg"
+        },
+        {
+            "id" : 3,
+            "name" : "M1 Macbook Air",
+            "desc" : "Apple Macbook air with apple silicon",
+            "price" : "#e0bfae",
+            "image" : "https://assets-prd.ignimgs.com/2021/01/27/m1-macbook-air-4-1611791801127.jpeg"
+        },
+        {
+            "id" : 4,
+            "name" : "Playstation 5",
+            "desc" : "Sony Playstation 5th generation",
+            "price" : 500,
+            "color" : "#544ee4",
+            "image" : "https://cdn.vox-cdn.com/thumbor/YDX2_jc6LlEumMk5eggV1ygGBm8=/0x0:1076x599/1200x628/filters:focal(538x300:539x301)/cdn.vox-cdn.com/uploads/chorus_asset/file/20030737/xWZMNYm.png"
+        },
+        {
+            "id" : 5,
+            "name" : "Airpods Pro",
+            "desc" : "Apple Airpods Pro 1st generation",
+            "price" : 200,
+            "color" : "#e3e4e9",
+            "image" : "https://static.esrgear.com/wp-content/uploads/2019/10/Bounce-Series-AirPods-Pro-Silicone-Case-4.jpg"
+        }
+    ]
+}
