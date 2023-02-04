@@ -13,11 +13,11 @@ class CatalogList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dummyList = List.generate(10, (index) => CatalogModel.items[0]);
+    // final dummyList = List.generate(10, (index) => CatalogModel.items[0]);
     return ListView.builder(
       shrinkWrap: true,
       itemBuilder: ((context, index) {
-        final catalog = dummyList[index];
+        final catalog = CatalogModel.getByPosition(index);
         return InkWell(
             onTap: () => Navigator.push(
                 context,
@@ -25,7 +25,7 @@ class CatalogList extends StatelessWidget {
                     builder: (context) => HomeDetailPage(catalog: catalog))),
             child: CatalogItem(catalog: catalog));
       }),
-      itemCount: dummyList.length,
+      itemCount: CatalogModel.items.length,
     );
   }
 }
